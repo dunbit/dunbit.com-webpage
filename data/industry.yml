@@ -1,0 +1,28 @@
+enable: true
+title: Industry
+subtitle: 
+content:
+
+  - icon: fa fa-archive
+    name: Retail
+    text: 
+
+  - icon: fa fa-credit-card
+    name: Online
+    text: 
+
+  - icon: fa fa-usd
+    name: Fintech
+    text:
+
+  - icon: fa fa-wifi
+    name: Telco
+    text: 
+
+  - icon: fa fa-medkit
+    name: Healtcare
+    text: 
+
+  - icon: fa fa-wrench
+    name: Manufacturing
+    text:

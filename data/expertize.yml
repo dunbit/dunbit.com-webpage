@@ -1,0 +1,28 @@
+enable: true
+title: Our Expertize
+subtitle: 
+content:
+
+  - icon: fa fa-cloud
+    name: Cloud Computing
+    text:
+
+  - icon: fa fa-area-chart
+    name: BI & Big Data Analytics
+    text:      
+
+  - icon: fa fa-terminal
+    name: DevOps
+    text: 
+
+  - icon: fa fa-plug
+    name: IoT 
+    text: 
+
+  - icon: fa fa-graduation-cap
+    name: AI/ML
+    text: 
+
+  - icon: fa fa-unlink
+    name: Blockchain
+    text:

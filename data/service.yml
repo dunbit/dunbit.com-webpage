@@ -1,0 +1,37 @@
+enable: true
+title: Our Services
+subtitle: 
+content:
+
+  - icon: fa fa-sitemap
+    name: Solution and Product Architecture
+    text: 
+
+  - icon: fa fa-desktop
+    name: Web and Mobile Application Development
+    text:
+      
+  - icon: fa fa-cloud
+    name: Cloud Architecture, Development and Migration
+    text: 
+
+  - icon: fa fa-thumbs-o-up
+    name: Technical Assessment and Due Dilligence
+    text:                 
+     
+  - icon: fa fa-lock
+    name: Security
+    text:
+
+  - icon: fa fa-group
+    name: Technical Management
+    text: 
+    
+
+  - icon: fa fa-exchange
+    name: Integration
+    text:
+
+  - icon: fa fa-graduation-cap
+    name: Training
+    text:
