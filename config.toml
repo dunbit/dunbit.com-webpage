@@ -1,6 +1,6 @@
 title = "Dunbit.com"
 logo = "logo.png"
-baseURL = "https://examplesite.com"
+baseURL = "https://dunbitdoo.netlify.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
