@@ -33,7 +33,7 @@ theme = "airspace-hugo"
     [[menu.header]]
       weight = 7
       name = "Jobs"
-      url = "job"  
+      url = "jobs"  
     [[menu.header]]
       weight = 8
       name = "Contact"

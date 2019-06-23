@@ -1,10 +1,10 @@
 +++
-title = "How To Setup Airspace Hugo"
-date = "2019-3-06T21:49:20+02:00"
-description = "This is meta description for blog page"
-tags = ["golang", "programming", "theme", "hugo"]
-categories = ["starting"]
-author = "Themefisher"
+title = "Technical Due Diligance"
+date = "2019-6-15T21:49:20+02:00"
+description = "Technical due diligance steps"
+tags = ["assesment", "due-dilegance"]
+categories = ["assesment"]
+author = "Grega"
 image = "img/blog/blog-post-1.jpg"
 +++
 
