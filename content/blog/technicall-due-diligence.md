@@ -1,103 +1,56 @@
 +++
 title = "Technical Due diligence"
-date = "2019-6-15T21:49:20+02:00"
+date = "2019-06-15T21:49:20+02:00"
 description = "Technical due diligence steps"
-tags = ["assesment", "due-diligence"]
-categories = ["assesment"]
+tags = ["assessment", "due-diligence"]
+categories = ["assessment"]
 author = "Grega"
-image = "img/blog/blog-post-1.jpg"
+#image = "img/blog/blog-post-1.jpg"
 +++
 
-## Technical Due Diligence
+## What is Technical Due Diligence?
 
-### What is Technical Due Diligence
+If you work in an IT you have most probably experienced a Technical Due diligence check or assessment of your company. 
 
-If you work in an IT you have most probably experienced a Technical Due diligence check or assesment of your company. 
+It is a process of evaluation of you company's:
 
-It is a process of evaluation of you Company's:
-* Technology
-* Technical personel
-* Way of work and organization of the teams
-* Assesment of the risks, weaknesses of the technology and the team
+* **- Technology**
+* **- Technical personal and organization**
+* **- Way of work, commitment and structure**
+* **- Assesment of the risks, weaknesses of the technology and the team**
 
 ### When Technical Due Diligence happens?
 
-This usually hapens when:
-* Company is being sold 
-* Company got a new investing partner 
-* Large contract/partnership is about to happen
-* Your Comany is being merged into large company
+This usually happens when:
 
-You as an CTO, IT Architecht or Technical Lead can find yourself either on examination side or your team/company is being examined. I will try to describe the 
+* **- Company is being sold**
+* **- Company got a new investing partner**
+* **- Large contract/partnership is about to happen**
+* **- Your Company is being merged into large company**
 
-### STEP-1 : Hugo installation
 
-Check this link below for install hugo on your computer.
-[hugo install documentation](https://gohugo.io/getting-started/installing/)
+<br>
+You as an `CTO or IT Architect` can find yourself either on examination side or your team/company is being examined. I will try to describe both aspects and what to do in both cases.
 
-### STEP-2 : Create your project
+### How and Who to perform a Technical Due Diligence?
 
-Hugo provides a `new` command to create a new website.
+Mostly some senior IT member like `CTO` or `Senior Architect` is doing the Technical Due Diligence. Nothing is wrong with this selection but this is not always optimal. Especially if different people are used to do the evaluation. 
 
-```
-hugo new site <new_project>
-```
+The main use case for Due Diligence nowadays is some VC investment. Especially for VCs I always suggest that the same person is doing evaluation, based on the company domain and technology he/she can always select additional help but it is important that all evaluations are baselined (easier to compare companies and investments).
 
-### STEP-3 : Install the theme
-Run this command
-```
-hugo new site airspace-hugo
-```
-and then go to the themes folder inside of airspace-hugo folder. You can also use this command ```cd airspace-hugo/themes``` for going to this folder.
-Then run the command 
-```
-git clone git@github.com:themefisher/airspace-hugo.git
-```
+Process:
 
-Alternatively, you can [download the theme as .zip](https://github.com/themefisher/airspace-hugo/archive/master.zip) file and extract it in the `themes` directory
+1. Before performing official Due Diligence a lot can be checked as an outside observer (check companies released product, webpage, social media, linkedin, github, ...)
+2. Overview interviews with CPO, CMO, VPs 2, can be done also remotely (I assume that CEO and CFO are also being interviewed by business)
+3. Take few days to grasp what you have been told and build a picture, think about week points, prepare some interview questions upfront
+4. On-site thorough overview of the architecture, technologies and processes in the company (requested upfront to be prepared by the company)
+5. More detailed discussions about particular parts which are not clear and have some gaps
+6. Deliver Final report to the Client
 
-After that you need to go to the `airspace-hugo/exampleSite` folder and copy or cut all the elements, and now go back to the root folder and paste it here.
 
-open the command prompt again and run `cd ../` command for go back to the root folder.
+### How to prepare for a Technical Due Diligence?
 
-### STEP-4 : Host locally
+No worries, you will just open your Document management system and browse through all Functional, Architecture and other specifications, read them and prepare for the _The Day_. In almost all cases this is not possible since existing specifications are outdated, some are missing. Updating the specification would need effort from all most of your technical team. What to do next?
 
-Launching the website locally by using the following command:
+Usually this leads to a critical team meeting and some `ad hoc overtime` work in order to prepare a minimum set of needed and requested documentation.
 
-```
-hugo serve
-```
-
-Go to `http://localhost:1313`
-
-Or you can check this video documentation for installing this template:
-{{< youtube 1wKDqma9Hl0 >}}
-
-### STEP-5 : Basic configuration
-
-When building the website, you can set a theme by using `--theme` option. However, we suggest you modify the configuration file (`config.toml`) and set the theme as the default.
-
-```toml
-# Change the default theme to be use when building the site with Hugo
-theme = "airspace-hugo"
-```
-
-### STEP-6 : Create your first content pages
-
-```
-hugo new blog/post-name.md
-```
-
-### STEP-7 : Build the website
-
-When your site is ready to deploy, run the following command:
-
-```
-hugo
-
-# You can also create a minified version by using this command:
-hugo--minify
-
-```
-
-A `public` folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.
