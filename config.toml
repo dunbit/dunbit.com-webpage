@@ -90,13 +90,13 @@ theme = "airspace-hugo"
     #  url = "#"
 
   [params.call]
-    enable = false
+    enable = true
     bgImage = "img/call-to-action-bg.jpg"
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Need our help?"
+    #paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
     [params.call.button]
-      url = "#"
-      text = "tell us your story"
+      url = "/contact"
+      text = "Tell us what you need"
 
   [params.contact]
     enable = true
@@ -109,12 +109,12 @@ theme = "airspace-hugo"
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Operations"
+      title = "Headquarters"
       address = "Ljubljana, Slovenia"
       email = "Email: operations@dunbit.com"
       phone = "Phone: +386 41 336 457"
     [params.contact.box2]
-      title = "Sales"
+      title = "Office"
       address = "Brussels, Belgium"
       email = "Email: info@dunbit.com"
       phone = "Phone: +32 479 65 93 10"  
@@ -130,7 +130,7 @@ theme = "airspace-hugo"
     enable = true
     # Possibility to center items
     center = true
-    title = "Our amazing team"
+    title = "Our management team"
     #subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
@@ -144,17 +144,15 @@ theme = "airspace-hugo"
       #reportsTo = "His Wife"
       livesIn = "[Ljubljana, Slovenia](#some-maps-url)"
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "IT Architect and Consultant",
+        "Cloud Computing",
+        "Technical team management"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Knowledgeable and driven Architect and Consultant with several years of experience with
+leading a combination of in-house and outsourced technical teams. """
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/gregor-zupan/"]
       ]
 
     [[params.team.members]]

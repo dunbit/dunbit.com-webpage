@@ -1,14 +1,34 @@
 +++
-title = "Technical Due Diligance"
+title = "Technical Due diligence"
 date = "2019-6-15T21:49:20+02:00"
-description = "Technical due diligance steps"
-tags = ["assesment", "due-dilegance"]
+description = "Technical due diligence steps"
+tags = ["assesment", "due-diligence"]
 categories = ["assesment"]
 author = "Grega"
 image = "img/blog/blog-post-1.jpg"
 +++
 
-## Install this template by following those simple steps:
+## Technical Due Diligence
+
+### What is Technical Due Diligence
+
+If you work in an IT you have most probably experienced a Technical Due diligence check or assesment of your company. 
+
+It is a process of evaluation of you Company's:
+* Technology
+* Technical personel
+* Way of work and organization of the teams
+* Assesment of the risks, weaknesses of the technology and the team
+
+### When Technical Due Diligence happens?
+
+This usually hapens when:
+* Company is being sold 
+* Company got a new investing partner 
+* Large contract/partnership is about to happen
+* Your Comany is being merged into large company
+
+You as an CTO, IT Architecht or Technical Lead can find yourself either on examination side or your team/company is being examined. I will try to describe the 
 
 ### STEP-1 : Hugo installation
 
