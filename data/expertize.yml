@@ -3,6 +3,10 @@ title: Our Expertize
 subtitle: 
 content:
 
+  - icon: fa fa-sitemap
+    name: Architecture & Design
+    text:
+
   - icon: fa fa-columns
     name: Software Development
     text:
