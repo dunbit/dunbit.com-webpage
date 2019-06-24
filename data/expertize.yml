@@ -3,6 +3,10 @@ title: Our Expertize
 subtitle: 
 content:
 
+  - icon: fa fa-columns
+    name: Software Development
+    text:
+
   - icon: fa fa-cloud
     name: Cloud Computing
     text:
@@ -23,6 +27,6 @@ content:
     name: AI/ML
     text: 
 
-  - icon: fa fa-unlink
+  - icon: fa fa-chain
     name: Blockchain
     text:

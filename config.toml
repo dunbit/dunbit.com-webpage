@@ -108,12 +108,12 @@ theme = "airspace-hugo"
       subject = "Your subject"
       message = "Your message"
       button = "Send message"
-    [params.contact.box]
+    [params.contact.box2]
       title = "Headquarters"
       address = "Ljubljana, Slovenia"
       email = "Email: operations@dunbit.com"
       phone = "Phone: +386 41 336 457"
-    [params.contact.box2]
+    [params.contact.box]
       title = "Office"
       address = "Brussels, Belgium"
       email = "Email: info@dunbit.com"
