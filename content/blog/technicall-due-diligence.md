@@ -10,7 +10,7 @@ author = "Grega"
 
 ## What is Technical Due Diligence?
 
-If you work in an IT you have been part of a Technical Due Diligence (a.k.a Technical Assessment).
+If you work in an IT you have most likely been part of a Technical Due Diligence (a.k.a Technical Assessment).
 
 It is a process of evaluation of your company:
 

@@ -1,5 +1,6 @@
 {{ partial "global-header.html" . }}
 
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <!-- Portfolio Start -->
 <section id="portfolio-work">
     <div class="container">
@@ -9,7 +10,7 @@
               <div class="portfolio-menu">
                 <ul>
                   {{ $categories := slice }}
-                  {{ range .Site.Data.work.portfolio }}
+                  {{ range $data.work.portfolio }}
                     {{ $categories = $categories | append .category }}
                   {{ end }}
                     <li class="filter" data-filter="all">Everything</li>
@@ -20,13 +21,13 @@
               </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
-                  {{ range .Site.Data.work.portfolio }}
+                  {{ range $data.work.portfolio }}
                     <li class="mix {{ .category }}">
-                      <a class="venobox" href="{{ $.Site.BaseURL }}{{ .image }}">
-                        <img class="img-responsive" src="{{ $.Site.BaseURL }}{{ .image }}" />
+                      <a class="venobox" href="{{ $.Site.BaseURL }}{{ .imageAlt }}">
+                        <img class="img-responsive" src="{{ $.Site.BaseURL }}{{ .image }}" onerror="this.src='{{ $.Site.BaseURL }}{{ .imageAlt }}'" />
                         <div class="overly">
                           <div class="position-center">
-                            <i class="fa fa-search fz-20"></i>
+                            <i class="fas fa-search-plus fz-20"></i>
                             <h2>{{ .name }}</h2>
                             <p>{{ .description }}</p>
                           </div>
@@ -49,9 +50,9 @@
       <div class="col-md-12">
         <div class="block">
           <div id="clients-logo" class="owl-carousel">
-            {{ range .Site.Data.work.clients }}
+            {{ range $data.work.clients }}
             <div class="clients-logo-img">
-              <a href="{{ .url }}"><img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Features"></a>
+              <a href="{{ .url | absURL }}"><img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Features"></a>
             </div>
             {{ end }}
           </div>

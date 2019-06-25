@@ -8,26 +8,45 @@
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                <img src="{{"img/logo.png" | absURL }}" width="200px" alt="{{ .Site.Title }} Logo">
+              <a class="navbar-brand" href="{{ .Site.BaseURL }}{{ .Language.LanguageName | lower }}">
+                <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
               </a>
             </div>
             
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navigation">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
+                <li><a href="{{ .Site.BaseURL }}{{ .Language.LanguageName | lower }}">{{ .Site.Params.home }}</a></li>
                 {{ range .Site.Menus.header }}
                 <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
                 {{ end }}
               </ul>
+              <!-- Language List -->
+              <select class="lang-list" id="select-language" onchange="location = this.value;">
+                {{ $siteLanguages := .Site.Languages}}
+                {{ $pageLang := .Page.Lang}}
+                {{ range .Page.AllTranslations }}
+                {{ $translation := .}}
+                {{ range $siteLanguages }}
+                {{ if eq $translation.Lang .Lang }}
+                {{ $selected := false }}
+                {{ if eq $pageLang .Lang}}
+                <option id="{{ $translation.Language }}" value="{{ $translation.URL }}" selected>{{ .LanguageName }}
+                </option>
+                {{ else }}
+                <option id="{{ $translation.Language }}" value="{{ $translation.URL }}">{{ .LanguageName }}</option>
+                {{ end }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+              </select>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
