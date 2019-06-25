@@ -89,10 +89,10 @@ defaultContentLanguageInSubdir = true
 
   [Languages.en.params.wrapper]
     enable = true
-    image = "img/wrapper-img.png"
-    title = "About Us"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    image = "img/kiss2.jpg"
+    title = "The Dunbit Story"
+    italic = ""
+    paragraph = "At Dunbit we believe that technology should help your business and not be a burden. Our motto is that solutions should be super simple, modular, efficient and straightforward. We strive to provide such solutions to all our customers."
 
   [Languages.en.params.blog]
     enable = true
@@ -100,14 +100,14 @@ defaultContentLanguageInSubdir = true
     subtitle = "Catch up with us, anytime and anywhere"
 
   [Languages.en.params.feature]
-    enable = true
+    enable = false
     title = "We believe in great ideas"
     bgImage = "img/feature-bg.webp"
     bgImageAlt = "img/feature-bg.jpg"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-    #[Languages.en.params.feature.button]
-    #  caption = "View Works"
-    #  url = "#"
+    [Languages.en.params.feature.button]
+      caption = "View Our Work"
+      url = "en/work"
 
   [Languages.en.params.call]
     enable = true
@@ -152,7 +152,7 @@ defaultContentLanguageInSubdir = true
     #  link = "#"
       
     [[Languages.en.params.contact.social]]
-      icon = "fa fa-linkedin"
+      icon = "fab fa-linkedin"
       url = "https://www.linkedin.com/company/dunbit"
       
     #[[Languages.en.params.contact.social]]
@@ -168,8 +168,8 @@ defaultContentLanguageInSubdir = true
     # Possibility to center items
     center = true
     title = "Our management team"
-    #subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = ""
+    description = "Wanna join our great team. Check Job posts."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -189,7 +189,7 @@ defaultContentLanguageInSubdir = true
       bio = """Knowledgeable and driven Architect and Consultant with several years of experience with
 leading a combination of in-house and outsourced technical teams. """
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/gregor-zupan/"]
+        ["fab fa-linkedin", "https://www.linkedin.com/in/gregor-zupan/"]
       ]
 
     [[Languages.en.params.team.members]]
@@ -206,9 +206,7 @@ leading a combination of in-house and outsourced technical teams. """
       bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
 She worked at Pied Piper for years until they went belly up."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fab fa-linkedin", "#"]
       ]
 
 
