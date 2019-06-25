@@ -15,7 +15,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="{{ .Site.BaseURL }}{{ .Language.LanguageName | lower }}">
-                <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
+                <img src="{{ .Site.BaseURL }}img/logo.png" width="200px" alt="{{ .Site.Title }} Logo">
               </a>
             </div>
             
@@ -29,7 +29,7 @@
                 {{ end }}
               </ul>
               <!-- Language List -->
-              <select class="lang-list" id="select-language" onchange="location = this.value;">
+              <!-- <select class="lang-list" id="select-language" onchange="location = this.value;">
                 {{ $siteLanguages := .Site.Languages}}
                 {{ $pageLang := .Page.Lang}}
                 {{ range .Page.AllTranslations }}
@@ -46,7 +46,7 @@
                 {{ end }}
                 {{ end }}
                 {{ end }}
-              </select>
+              </select> -->
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
