@@ -1,11 +1,11 @@
 +++
 title = "Technical Due diligence"
 date = "2019-06-15T21:49:20+02:00"
-description = "Technical due diligence steps"
+description = "All about Technical Due Diligence or Technical Assessment"
 tags = ["assessment", "due-diligence"]
 categories = ["assessment"]
 author = "Grega"
-#image = "img/blog/blog-post-1.jpg"
+image = "img/blog/blog-post-1.jpg"
 +++
 
 ## What is Technical Due Diligence?
