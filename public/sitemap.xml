@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/blog/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/categories/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/tags/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/blog/technicall-due-diligence/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/categories/assessment/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/tags/assessment/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/tags/due-diligence/</loc>
+    <lastmod>2019-06-15T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/jobs/full-stack-developer/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/jobs/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/blog/migrate-from-jekyll/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/tags/ipsum/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/categories/lorem/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/other/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/other/creating-a-new-theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/other/creating-a-new-theme.fr/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/categories/starting/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/tags/theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/other/_index.fr/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/jobs/devops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/expertize/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/industry/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/service/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/team/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/work/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/categories/assesment/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/tags/assesment/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dunbitdoo.netlify.com/tags/due-dilegance/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

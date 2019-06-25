@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Airspace Hugo</title>
+    <link>https://dunbitdoo.netlify.com/tags/</link>
+    <description>Recent content in Tags on Airspace Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2019 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://dunbitdoo.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>assessment</title>
+      <link>https://dunbitdoo.netlify.com/tags/assessment/</link>
+      <pubDate>Sat, 15 Jun 2019 21:49:20 +0200</pubDate>
+      
+      <guid>https://dunbitdoo.netlify.com/tags/assessment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>due-diligence</title>
+      <link>https://dunbitdoo.netlify.com/tags/due-diligence/</link>
+      <pubDate>Sat, 15 Jun 2019 21:49:20 +0200</pubDate>
+      
+      <guid>https://dunbitdoo.netlify.com/tags/due-diligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipsum</title>
+      <link>https://dunbitdoo.netlify.com/tags/ipsum/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>https://dunbitdoo.netlify.com/tags/ipsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theme</title>
+      <link>https://dunbitdoo.netlify.com/tags/theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://dunbitdoo.netlify.com/tags/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>assesment</title>
+      <link>https://dunbitdoo.netlify.com/tags/assesment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunbitdoo.netlify.com/tags/assesment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>due-dilegance</title>
+      <link>https://dunbitdoo.netlify.com/tags/due-dilegance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunbitdoo.netlify.com/tags/due-dilegance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = true
 # Multilangual : FR / EN
 [Languages]
 
-  ######## english language
+   ######## english language
   [Languages.en]
     languageName = "En"
     weight = 2
