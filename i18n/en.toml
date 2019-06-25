@@ -6,6 +6,16 @@ other = "EN wrapper"
 other = "EN feature"
 [service]
 other = "EN service"
+[industry]
+other = "EN industry"
+[expertize]
+other = "EN expertize"
+[jobs]
+other = "EN jobs"
+[team]
+other = "EN team"
+[blog]
+other = "EN blog"
 [call-to-action]
 other = "EN call-to-action"
 [testimonial]

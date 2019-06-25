@@ -36,7 +36,7 @@ defaultContentLanguageInSubdir = true
     [[Languages.en.menu.header]]
       weight = 2
       name = "Team"
-      url = "team"
+      url = "en/team"
     [[Languages.en.menu.header]]
       weight = 3
       name = "Blog"
@@ -56,7 +56,7 @@ defaultContentLanguageInSubdir = true
     [[Languages.en.menu.header]]
       weight = 7
       name = "Jobs"
-      url = "jobs"  
+      url = "en/jobs"  
     [[Languages.en.menu.header]]
       weight = 8
       name = "Contact"
