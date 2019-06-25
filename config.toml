@@ -1,5 +1,6 @@
-title = "Airspace for Hugo"
-baseURL = "http://examplesite.com"
+title = "Dunbit.com"
+logo = "logo.png"
+baseURL = "https://dunbitdoo.netlify.com/"
 theme = "airspace-hugo"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -19,147 +20,10 @@ defaultContentLanguageInSubdir = true
 
 # Multilangual : FR / EN
 [Languages]
-    ############ 1 - Site en FRANCAIS
-  
-
-  [Languages.fr]
-  languageName = "Fr"
-  weight = 1
-  languageCode = "fr-fr"
-  title = "FRANCAIS Airspace Hugo"
-  dateFormat = "2 January 2006"
-  home = "FR-Home"
-
-    
-  [Languages.fr.menu]
-
-    [[Languages.fr.menu.header]]
-      weight = 2
-      name = "FR-Work"
-      url = "fr/work"
-    [[Languages.fr.menu.header]]
-      weight = 3
-      name = "FR-Blog"
-      url = "fr/blog"
-    [[Languages.fr.menu.header]]
-      weight = 4
-      name = "FR-Service"
-      url = "fr/service"
-    [[Languages.fr.menu.header]]
-      weight = 5
-      name = "FR-Contact"
-      url = "fr/contact"
-    [[Languages.fr.menu.header]]
-      weight = 5
-      name = "Other"
-      url = "fr/other"
-
-    [[Languages.fr.menu.footer]]
-      weight = 1
-      name = "FR-About us"
-      url = "#"
-    [[Languages.fr.menu.footer]]
-      weight = 2
-      name = "FR-Contact us"
-      url = "#"
-    [[Languages.fr.menu.footer]]
-      weight = 3
-      name = "FR-How it works"
-      url = "#"
-    [[Languages.fr.menu.footer]]
-      weight = 4
-      name = "FR-Blog"
-      url = "#"
-    [[Languages.fr.menu.footer]]
-      weight = 5
-      name = "FR-Terms"
-      url = "#"
-
-
-  [Languages.fr.params]
-
-    [Languages.fr.params.slider]
-      enable = true
-      title = "Un marketing numérique & agence de design"
-      subtitle = "FRANCAIS We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
-      bgImage = "img/slider-bg.webp"
-      bgImageAlt = "img/slider-bg.jpg"
-      btnText = "Discover Our Projects"
-      url = "#"
-
-    [Languages.fr.params.wrapper]
-      enable = true
-      image = "img/wrapper-img.png"
-      title = "FRANCAIS About Us"
-      italic = "FRANCAIS Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-      paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
-
-    [Languages.fr.params.blog]
-      enable = true
-      title = "FRANCAIS Get The Latest On What We're doing"
-      subtitle = "FRANCAIS Catch up with us, anytime and anywhere"
-
-    [Languages.fr.params.feature]
-      enable = true
-      title = "FRANCAIS We believe in great ideas"
-      bgImage = "img/feature-bg.webp"
-      bgImageAlt = "img/feature-bg.jpg"
-      content = "FRANCAIS Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-      [Languages.fr.params.feature.button]
-        caption = "View Works"
-        url = "#"
-
-    [Languages.fr.params.call]
-      enable = true
-      title = "FRANCAIS We design delightful digital experiences."
-      paragraph = "FRANCAIS Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-      bgImage = "img/call-to-action-bg.jpg"
-      [Languages.fr.params.call.button]
-        url = "#"
-        text = "tell us your story"
-
-    [Languages.fr.params.contact]
-      enable = true
-      title = "FRANCAIS Drop us a note"
-      subtitle = "Don’t just take our word for it. Check out some of our latest work."
-      [Languages.fr.params.contact.form]
-      # mail address is required for sending email.
-      # Contact form works with formspree.io
-        mailAddress = "example@gmail.com"
-        name = "Your name"
-        email = "Your email"
-        subject = "Your subject"
-        message = "Your message"
-        button = "Send message"
-      [Languages.fr.params.contact.box]
-        title = "Stop by for a visit"
-        address = "North Main Street, Brooklyn Australia"
-        email = "Email: contact@mail.com"
-        phone = "Phone: +88 01672 506 744"
-    
-      # social site
-      [[Languages.fr.params.contact.social]]
-        icon = "fa-facebook-f"
-        link = "#"
-        
-      [[Languages.fr.params.contact.social]]
-        icon = "fa-twitter"
-        link = "#"
-        
-      [[Languages.fr.params.contact.social]]
-        icon = "fa-linkedin"
-        link = "#"
-        
-      [[Languages.fr.params.contact.social]]
-        icon = "fa-github"
-        link = "#"
-
-      [Languages.fr.params.contact.gmaps]
-        title = "We Also Count in Google Maps"
 
   ######## english language
   [Languages.en]
-  languageName = "En"
+    languageName = "En"
     weight = 2
     languageCode = "en-us"
     title = "Airspace Hugo"
@@ -171,8 +35,8 @@ defaultContentLanguageInSubdir = true
 
     [[Languages.en.menu.header]]
       weight = 2
-      name = "Work"
-      url = "en/work"
+      name = "Team"
+      url = "team"
     [[Languages.en.menu.header]]
       weight = 3
       name = "Blog"
@@ -183,12 +47,20 @@ defaultContentLanguageInSubdir = true
       url = "en/service"
     [[Languages.en.menu.header]]
       weight = 5
+      name = "Expertize"
+      url = "en/expertize"
+    [[Languages.en.menu.header]]
+       weight = 6
+      name = "Industry"
+      url = "en/industry"
+    [[Languages.en.menu.header]]
+      weight = 7
+      name = "Jobs"
+      url = "jobs"  
+    [[Languages.en.menu.header]]
+      weight = 8
       name = "Contact"
       url = "en/contact"
-    [[Languages.en.menu.header]]
-      weight = 5
-      name = "Other"
-      url = "en/other"
 
     [[Languages.en.menu.footer]]
       weight = 1
@@ -197,26 +69,21 @@ defaultContentLanguageInSubdir = true
     [[Languages.en.menu.footer]]
       weight = 2
       name = "Contact us"
-      url = "#"
+      url = "en/contact"
     [[Languages.en.menu.footer]]
       weight = 3
-      name = "How it works"
-      url = "#"
+      name = "Blog"
+      url = "en/blog"
     [[Languages.en.menu.footer]]
       weight = 4
-      name = "Blog"
-      url = "#"
-    [[Languages.en.menu.footer]]
-      weight = 5
       name = "Terms"
       url = "#"
-
+    
   [Languages.en.params.slider]
     enable = true
-    title = "A digital marketing &amp; design agency"
-    subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
-    bgImage = "img/slider-bg.webp"
-    bgImageAlt = "img/slider-bg.jpg"
+    title = "A Software Innovation Partner"
+    subtitle = "Leave implementation to us and focus on your business"
+    bgImage = "img/slider-bg.jpg"
     btnText = "Discover Our Projects"
     url = "#"
 
@@ -238,18 +105,18 @@ defaultContentLanguageInSubdir = true
     bgImage = "img/feature-bg.webp"
     bgImageAlt = "img/feature-bg.jpg"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-    [Languages.en.params.feature.button]
-      caption = "View Works"
-      url = "#"
+    #[Languages.en.params.feature.button]
+    #  caption = "View Works"
+    #  url = "#"
 
   [Languages.en.params.call]
     enable = true
     bgImage = "img/call-to-action-bg.jpg"
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Need our help?"
+    #paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
     [Languages.en.params.call.button]
-      url = "#"
-      text = "tell us your story"
+      url = "/contact"
+      text = "Tell us what you need"
 
   [Languages.en.params.contact]
     enable = true
@@ -258,34 +125,88 @@ defaultContentLanguageInSubdir = true
     [Languages.en.params.contact.form]
     # mail address is required for sending email.
     # Contact form works with formspree.io
-      mail = "example@gmail.com"
+      mail = "info@dunbit.com"
       name = "Your name"
       email = "Your email"
       subject = "Your subject"
       message = "Your message"
       button = "Send message"
     [Languages.en.params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      title = "Office"
+      address = "Brussels, Belgium"
+      email = "Email: info@dunbit.com"
+      phone = "Phone: +32 479 65 93 10"
+    [Languages.en.params.contact.box2]
+      title = "Headquarters"
+      address = "Ljubljana, Slovenia"
+      email = "Email: operations@dunbit.com"
+      phone = "Phone: +386 41 336 457"
     
     # social site
-    [[Languages.en.params.contact.social]]
-      icon = "fa-facebook-f"
-      link = "#"
+    #[[Languages.en.params.contact.social]]
+    #  icon = "fa-facebook-f"
+    #  link = "#"
+      
+    #[[Languages.en.params.contact.social]]
+    #  icon = "fa-twitter"
+    #  link = "#"
       
     [[Languages.en.params.contact.social]]
-      icon = "fa-twitter"
-      link = "#"
+      icon = "fa fa-linkedin"
+      url = "https://www.linkedin.com/company/dunbit"
       
-    [[Languages.en.params.contact.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      
-    [[Languages.en.params.contact.social]]
-      icon = "fa-github"
-      link = "#"
+    #[[Languages.en.params.contact.social]]
+    #  icon = "fa-github"
+    #  link = "#"
 
     [Languages.en.params.contact.gmaps]
       title = "We Also Count in Google Maps"
+
+ # Team section
+  [Languages.en.params.team]
+    enable = true
+    # Possibility to center items
+    center = true
+    title = "Our management team"
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[Languages.en.params.team.members]]
+      img = "img/mail-tag-grega.png"
+      name = "Gregor Zupan"
+      position = "Managing Director"
+      #reportsTo = "His Wife"
+      livesIn = "[Ljubljana, Slovenia](#some-maps-url)"
+      scope = [
+        "IT Architect and Consultant",
+        "Cloud Computing",
+        "Technical team management"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Knowledgeable and driven Architect and Consultant with several years of experience with
+leading a combination of in-house and outsourced technical teams. """
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/gregor-zupan/"]
+      ]
+
+    [[Languages.en.params.team.members]]
+      img = "img/mail-tag-steven.png"
+      name = "Steven Ceuppens"
+      position = "Managing Director"
+      livesIn = "[Ljubljana, Slovenia](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]

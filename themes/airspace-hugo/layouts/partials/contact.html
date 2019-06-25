@@ -49,6 +49,33 @@
             {{ end }}
           </ul>
         </div>
+
+        <div class="block">
+
+          <h2>{{ .box2.title }}</h2>
+          <ul class="address-block">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>{{ .box2.address }}
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>{{ .box2.email }}
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>{{ .box2.phone }}
+            </li>
+          </ul>
+          <ul class="social-icons">
+          <!-- {{ range .social }}  
+            <li>
+              <a href="{{ .url }}"><i class="fa {{ .icon }}"></i></a>
+            </li>
+          {{ end }} -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="block">
+
       </div>
       <div class="col-md-6 col-sm-12">
         {{ with .gmaps}}
