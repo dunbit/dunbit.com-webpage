@@ -85,7 +85,7 @@ defaultContentLanguageInSubdir = true
     subtitle = "Leave implementation to us and focus on your business"
     bgImage = "img/slider-bg.jpg"
     btnText = "Discover Our Projects"
-    url = "#"
+    url = "en/work"
 
   [Languages.en.params.wrapper]
     enable = true
@@ -115,7 +115,7 @@ defaultContentLanguageInSubdir = true
     title = "Need our help?"
     #paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
     [Languages.en.params.call.button]
-      url = "/contact"
+      url = "en/contact"
       text = "Tell us what you need"
 
   [Languages.en.params.contact]
