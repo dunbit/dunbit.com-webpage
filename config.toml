@@ -1,6 +1,6 @@
 title = "Dunbit.com"
 logo = "logo.png"
-baseURL = "https://dunbitdoo.netlify.com"
+baseURL = "https://dunbitdoo.netlify.com/"
 theme = "airspace-hugo"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -91,7 +91,7 @@ defaultContentLanguageInSubdir = true
     enable = true
     image = "img/kiss2.jpg"
     title = "The Dunbit Story"
-    italic = ""
+    italic = "Dunbit is an IT Consulting company with Headquarters in Ljubljana, Slovenia (EU) and Office in Brussels, Belgium. It is a newly founded company but founders and core team has 15+ years of experience with IT Consultancy, Architecture & Design and Implementation of modern solutions, Leading of technical teams, doing Technical Assessment all over the world."
     paragraph = "At Dunbit we believe that technology should help your business and not be a burden. Our motto is that solutions should be super simple, modular, efficient and straightforward. We strive to provide such solutions to all our customers."
 
   [Languages.en.params.blog]
