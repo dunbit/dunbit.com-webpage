@@ -26,7 +26,7 @@ Technical Due Diligence usually happens when:
 * **- Company is being sold**
 * **- Company is in a process of Series A, B, .. founding**
 * **- Before signing large contract/partnership**
-* **- Merger*
+* **- Merger**
 
 
 <br>
