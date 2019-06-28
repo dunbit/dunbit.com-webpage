@@ -1,5 +1,6 @@
 {{ partial "global-header.html" . }}
 
+
 {{ "<!-- Team Section -->" | safeHTML }}
 <section id="team" class="bg-light-gray">
   <div class="container">
@@ -38,7 +39,7 @@
 
             <ul class="list-inline social-buttons">
               {{ range .social }}
-                <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+                <li><a href="{{ index . 1 }}"><i class="{{ index . 0 }}"></i></a></li>
               {{ end }}
             </ul>
 

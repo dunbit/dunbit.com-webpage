@@ -1,7 +1,7 @@
 +++
 title = "Technical Due diligence"
 date = "2019-06-15T21:49:20+02:00"
-description = "Technical due diligence steps"
+description = "All about Technical Due Diligence or Technical Assessment"
 tags = ["assessment", "due-diligence"]
 categories = ["assessment"]
 author = "Grega"
@@ -16,7 +16,7 @@ When working in technology, many likely have been part of Technical Due Diligenc
 
 ![Technical Due Diligence](/img/blog/due-diligence-map.jpg# right half)
 
-This usually happens when:
+Technical Due Diligence usually happens when:
 
 * Company is being sold
 * Company got a new investing partner
@@ -35,7 +35,7 @@ The main use case for Due Diligence nowadays is some VC investment. Especially f
 
 Process:
 
-1. Discuss with a Client about what plans they have with a company since then you can be more careful on certain aspects (e.g. Quick time to market and scale user base from 10k to 10M is something completely different than just buy off certain technology and integrate it either by refactoring or new implementation in already existing solution/product)
+1. Discuss with a Client about what plans they have with a company. Focus can then be on different aspects (e.g. Quick time to market and scale user base from 10k to 10M is something completely different than just buy off certain technology and integrate it either by refactoring or new implementation in already existing solution/product)
 2. Before performing official Due Diligence a lot can be checked as an outside observer (check companies released product, webpage, social media, Linkedin, Github, sometimes - B2B, it also make sense to visit one of the customers and discuss directly with him)
 3. Written documentation request
 4. Overview interviews with CTO, CPO, CMO, VPs, can be done also remotely (I assume that CEO and CFO are also being interviewed by the business, if not can be also included). If company is smaller and above organization is not established, discussion with some senior staff is needed

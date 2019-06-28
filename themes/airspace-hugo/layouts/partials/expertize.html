@@ -1,7 +1,7 @@
 {{ partial "global-header.html" . }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ if .Site.Data.expertize.enable }}
+{{ if $data.expertize.enable }}
 <!-- Service Start -->
 <section id="service">
   <div class="container">
