@@ -1407,3 +1407,7 @@ img[src~="right"] {
 img[src~="half"] {
   width:250px;
 }
+
+h2 {
+  margin: 30px 0 20px 0;
+}
