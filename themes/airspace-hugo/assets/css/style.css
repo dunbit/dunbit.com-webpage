@@ -76,12 +76,11 @@ h3 {
 
 p {
   font-size: 15px;
-  line-height: 28px;
 }
 
 ul {
   padding: 0;
-  margin: 0;
+  margin: 0 0 10px;
   list-style: none;
 }
 
@@ -1367,3 +1366,48 @@ px      68    160    252    344    436    */
 	Overrides styles for devices with a 
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
+
+/*---------------------------------------------
+					Blog Post
+-----------------------------------------------*/
+div.post {
+  line-height: 1.7em;
+  text-align: justify;
+}
+
+div.post strong {
+  color: #25A9E0;
+}
+
+div.post section {
+  padding: 20px 0;
+}
+
+div.post ul {
+  margin-left: 10px;
+  list-style-type: circle;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+img[src~="left"] {
+  float: left;
+  margin: 10px 40px 10px 10px;
+}
+
+img[src~="right"] {
+  float: right;
+  margin: 10px 10px 10px 40px;
+}
+
+img[src~="half"] {
+  width:250px;
+}
+
+h2 {
+  margin: 30px 0 20px 0;
+}
