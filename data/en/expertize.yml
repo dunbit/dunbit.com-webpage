@@ -16,7 +16,7 @@ content:
   - icon: fa fa-cloud
     name: Cloud Computing
     text: >
-      AWS and Cloud Native (CNCF) and other cloud provider Architecture
+      AWS, Cloud Native (CNCF) and other cloud provider Architecture
 
   - icon: fa fa-area-chart
     name: BI & Big Data Analytics
@@ -26,7 +26,7 @@ content:
   - icon: fa fa-terminal
     name: DevOps
     text: >
-      Building Continuous Integration and Delivery process pipelines , Infrastructure as a Code, Monitoring and Logging      
+      Building Continuous Integration and Delivery process pipelines, Infrastructure as a Code, Monitoring and Logging      
 
   - icon: fa fa-plug
     name: IoT 
