@@ -5,32 +5,35 @@ content:
 
   - icon: fa fa-sitemap
     name: Architecture & Design
-    text:
+    text: >
+      Software, Solution Architecture, Microservices, Loosely coupled architecture, Event driven architecture
 
   - icon: fa fa-columns
     name: Software Development
-    text:
+    text: >
+      Supporting customer in the whole process of Software Development Lifecycle
 
   - icon: fa fa-cloud
     name: Cloud Computing
-    text:
+    text: >
+      AWS and Cloud Native (CNCF) and other cloud provider Architecture
 
   - icon: fa fa-area-chart
     name: BI & Big Data Analytics
-    text:      
+    text: >
+      Big Data, Data Warehouses and Data Lakes, Analytics
 
   - icon: fa fa-terminal
     name: DevOps
-    text: 
+    text: >
+      Building Continuous Integration and Delivery process pipelines , Infrastructure as a Code, Monitoring and Logging      
 
   - icon: fa fa-plug
     name: IoT 
-    text: 
+    text: >
+      IoT platforms, Maintenance and Control of IoT devices
 
   - icon: fa fa-graduation-cap
     name: AI/ML
-    text: 
-
-  - icon: fa fa-chain
-    name: Blockchain
-    text:
+    text: >
+      Artificial Intelligence, Machine Learning, Preventive and Predictive Maintenance

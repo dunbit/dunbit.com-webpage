@@ -39,7 +39,7 @@ Process:
 2. Before performing official Due Diligence a lot can be checked as an outside observer (check companies released product, webpage, social media, Linkedin, Github, sometimes - B2B, it also make sense to visit one of the customers and discuss directly with him)
 3. Written documentation request
 4. Overview interviews with CTO, CPO, CMO, VPs, can be done also remotely (I assume that CEO and CFO are also being interviewed by the business, if not can be also included). If company is smaller and above organization is not established, discussion with some senior staff is needed
-5. Take a few days to grasp what you have been told, read the documents and specification and build your own picture, think about week points, prepare some interview questions upfront
+5. Take a few days to grasp what you have been told, read the documents and specification and build your own picture, think about weak points, prepare some interview questions upfront
 6. On-site thorough overview of the architecture, technologies and processes in the company (requested upfront to be prepared by the company)
     
     ![Technical Due Diligence](/img/blog/due-diligence.jpg# right half)
