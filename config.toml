@@ -196,7 +196,7 @@ leading a combination of in-house and outsourced technical teams. """
       img = "img/mail-tag-steven.png"
       name = "Steven Ceuppens"
       position = "Managing Director"
-      livesIn = "[Antwerp, Belgiuim](#some-maps-url)"
+      livesIn = "[Antwerp, Belgium](#some-maps-url)"
       scope = [
         "UX for [member dashboard](#)",
         "Maintainer for [awesome-project](#)",
