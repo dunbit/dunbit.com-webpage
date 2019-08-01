@@ -132,14 +132,14 @@ defaultContentLanguageInSubdir = true
       message = "Your message"
       button = "Send message"
     [Languages.en.params.contact.box]
-      title = "Belgium Office"
+      title = "Dunbit Belgium"
       address = "Brussels, Belgium"
-      email = "Email: info@dunbit.com"
+      email = "info@dunbit.com"
       phone = "Phone: +32 479 65 93 10"
     [Languages.en.params.contact.box2]
-      title = "Slovenia Office"
+      title = "Dunbit Slovenia"
       address = "Ljubljana, Slovenia"
-      email = "Email: operations@dunbit.com"
+      email = "info@dunbit.com"
       phone = "Phone: +386 41 336 457"
     
     # social site
