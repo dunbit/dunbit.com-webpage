@@ -102,8 +102,8 @@ defaultContentLanguageInSubdir = true
   [Languages.en.params.feature]
     enable = true
     title = "Need to realize a great idea"
-    bgImage = "img/feature-bg.webp"
-    bgImageAlt = "img/feature-bg.jpg"
+    bgImage = "img/idea.png"
+    bgImageAlt = "img/idea.png"
     content = "Dunbit is always ready to help you with realization of a idea or project for which you do not have your own resources."
     #[Languages.en.params.feature.button]
     #  caption = "View Our Work"

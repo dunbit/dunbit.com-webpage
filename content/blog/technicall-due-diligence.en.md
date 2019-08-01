@@ -6,6 +6,7 @@ tags = ["assessment", "due-diligence"]
 categories = ["assessment"]
 author = "Grega"
 image = "img/blog/due_diligence_blog.jpg"
+type = "blog"
 +++
 
 ## What is Technical Due Diligence?

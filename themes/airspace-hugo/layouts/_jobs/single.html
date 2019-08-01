@@ -28,7 +28,13 @@
 	  </section>
 	</div>
 	<p class="center-text" style="padding: 30px;">
-	  <a class="btn btn-main" href="{{ $.Site.BaseURL }}/blog">Back to blog</a>
+		<p>{{ .Params.title }}</p>
+		{{ if .Params.title "Blog"}}
+			<a class="btn btn-main" href="{{ $.Site.BaseURL }}/blog">Back to blasdawfwafog</a>
+		{{ end }}
+		{{ if .Params.title "Jobs"}}
+			<a class="btn btn-main" href="{{ $.Site.BaseURL }}/jobs">Back to joefefefbs</a>
+		{{ end }}
 	</p>
 
 	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}

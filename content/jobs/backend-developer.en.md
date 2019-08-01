@@ -5,6 +5,7 @@ description = ""
 tags = ["ipsum"]
 categories = ["lorem"]
 image = "img/blog/blog-post-4.jpg"
+type = "jobs"
 +++
 
 ## Job Description

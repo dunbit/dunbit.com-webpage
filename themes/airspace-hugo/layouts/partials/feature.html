@@ -1,15 +1,23 @@
-<section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}'),url('{{ .Site.Params.feature.bgImageAlt | absURL }}');">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-6">
-      <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
-      <p>
-      	{{ .Site.Params.feature.content | markdownify }}
-      </p>
-      {{ with .Site.Params.feature.button }}
-      	<a href="{{ .url | absURL }}" class="btn btn-main">{{ .caption }}</a>
-      {{ end }}
+
+
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+         <img src="{{ with .Site.Params.feature.bgImage }} {{ . | absURL }} {{ end }}" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{ .Site.Params.feature.title }}</h2>
+            <p>{{ .Site.Params.wrapper.italic }}</p>
+          </div>
+          <p>{{ .Site.Params.feature.content | markdownify }}</p>
+        </div>
+      </div><!-- .col-md-7 close -->
     </div>
   </div>
-</div>
 </section>
