@@ -9,7 +9,7 @@ defaultContentLanguageInSubdir = true
 [params]
 
   # Google Analitycs
-  googleAnalitycsID = "Your ID"
+  googleAnalitycsID = "UA-145017939-1"
   description = "Airspace Hugo theme"
   author = "Somrat"
   
