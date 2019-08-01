@@ -196,7 +196,7 @@ leading a combination of in-house and outsourced technical teams. """
       img = "img/mail-tag-steven.png"
       name = "Steven Ceuppens"
       position = "Managing Director"
-      livesIn = "[Ljubljana, Slovenia](#some-maps-url)"
+      livesIn = "[Antwerp, Belgiuim](#some-maps-url)"
       scope = [
         "UX for [member dashboard](#)",
         "Maintainer for [awesome-project](#)",
@@ -206,7 +206,7 @@ leading a combination of in-house and outsourced technical teams. """
       bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
 She worked at Pied Piper for years until they went belly up."""
       social = [
-        ["fab fa-linkedin", "#"]
+        ["fab fa-linkedin", "https://www.linkedin.com/in/stevenceuppens/"]
       ]
 
 

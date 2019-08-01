@@ -1,21 +1,25 @@
 {{ partial "global-header.html" . }}
 
-
-{{ "<!-- Team Section -->" | safeHTML }}
-<section id="team" class="bg-light-gray">
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<!-- Service Start -->
+<section id="service">
   <div class="container">
+
+        
+    <!-- Intro -->
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ with .Site.Params.team.title }}{{ . | markdownify }}{{ end }}</h2>
-        <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.team.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      <div class="section-title">
+        <h2>{{ .Site.Params.team.title }}</h2>
+        <p>{{ .Site.Params.team.subtitle }}</p>
       </div>
     </div>
+
     <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.team.members }}
         <div class="col-sm-6 col">
           <div class="team-member">
             {{ $url := printf "img/team/%s" .img }}
-            <img src="{{ with .img }} {{ . | absURL }} {{ end }}" class="img-responsive" alt="{{ .name }}">
+            <img src="{{ with .img }} {{ . | absURL }} {{ end }}" class="img-responsive center" alt="{{ .name }}">
             <h3>{{ .name | markdownify }}</h3>
 
             {{ with .position }}
@@ -26,15 +30,7 @@
             {{ end }}
 
             {{ with .livesIn }}
-            <h5>Lives in {{ . | markdownify }}</h5>
-            {{ end }}
-
-            {{ with .scope }}
-            <ul>
-              {{ range . }}
-                <li>{{ . | markdownify }}</li>
-              {{ end }}
-            </ul>
+            <h5>{{ . | markdownify }}</h5>
             {{ end }}
 
             <ul class="list-inline social-buttons">
@@ -43,18 +39,9 @@
               {{ end }}
             </ul>
 
-            {{ with .bio }}
-            <p class="team-bio">{{ . | markdownify }}</p>
-            {{ end }}
-
           </div>
         </div>
       {{ end }}
-    </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
-      </div>
     </div>
   </div>
 </section>
