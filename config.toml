@@ -1,6 +1,6 @@
 title = "Dunbit.com"
 logo = "logo.png"
-baseURL = "https://dunbitdoo.netlify.com/"
+baseURL = "https://dunbit.com/"
 theme = "airspace-hugo"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
