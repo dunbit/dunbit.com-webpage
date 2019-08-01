@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ if $data.expertize.enable }}
 <!-- Service Start -->
-<section id="service">
+<section id="expertise">
   <div class="container">
 
     <!-- Intro -->
@@ -13,7 +13,7 @@
     </div>
 
     <!-- Content -->
-    <div class="row">
+    <div class="row auto-clear">
       {{ range $data.expertize.content }}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">

@@ -272,6 +272,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #service .service-item {
   padding-bottom: 30px;
+  height: 220px;
 }
 
 #service .service-item i {
@@ -286,6 +287,38 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #service .service-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/*--
+	expertise Start
+--*/
+#expertise {
+  text-align: center;
+  padding: 90px 0;
+}
+
+#expertise .service-item {
+  padding-bottom: 30px;
+  height: 220px;
+}
+
+#expertise .service-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+
+#expertise .service-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+
+#expertise .service-item p {
   color: #888;
   padding-top: 10px;
   margin: 0;
