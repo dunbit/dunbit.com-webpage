@@ -326,6 +326,39 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.8;
 }
 
+
+/*--
+	industry Start
+--*/
+#industry {
+  text-align: center;
+  padding: 90px 0;
+}
+
+#industry .service-item {
+  padding-bottom: 30px;
+  height: 200px;
+}
+
+#industry .service-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+
+#industry .service-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+
+#industry .service-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 /*--
 	call-to-action Start
 --*/
