@@ -91,7 +91,7 @@ defaultContentLanguageInSubdir = true
     enable = true
     image = "img/kiss2.jpg"
     title = "The Dunbit Story"
-    italic = "Dunbit is an IT Consulting company with Offices in Ljubljana, Slovenia and Brussels, Belgium. It is a newly founded company but founders and core team has 15+ years of experience with IT Consultancy, Architecture & Design and Implementation of modern solutions, Leading of technical teams, doing Technical Assessment all over the world."
+    italic = "Dunbit is an IT Consulting company with Offices in Ljubljana, Slovenia and Antwerp, Belgium. It is a newly founded company but founders and core team has 15+ years of experience with IT Consultancy, Architecture & Design and Implementation of modern solutions, Leading of technical teams, doing Technical Assessment all over the world."
     paragraph = "At Dunbit we believe that technology should help your business and not be a burden. Our motto is that solutions should be super simple, modular, efficient and straightforward. We strive to provide such solutions to all our customers."
 
   [Languages.en.params.blog]
@@ -133,7 +133,7 @@ defaultContentLanguageInSubdir = true
       button = "Send message"
     [Languages.en.params.contact.box]
       title = "Dunbit Belgium"
-      address = "Brussels, Belgium"
+      address = "Antwerp, Belgium"
       email = "info@dunbit.com"
       phone = "Phone: +32 479 65 93 10"
     [Languages.en.params.contact.box2]
