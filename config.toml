@@ -62,10 +62,10 @@ defaultContentLanguageInSubdir = true
       name = "Contact"
       url = "en/contact"
 
-    [[Languages.en.menu.footer]]
-      weight = 1
-      name = "About us"
-      url = "#"
+    #[[Languages.en.menu.footer]]
+    #  weight = 1
+    #  name = "About us"
+    #  url = "#"
     [[Languages.en.menu.footer]]
       weight = 2
       name = "Contact us"
@@ -77,21 +77,21 @@ defaultContentLanguageInSubdir = true
     [[Languages.en.menu.footer]]
       weight = 4
       name = "Terms"
-      url = "#"
+      url = "en/terms"
     
   [Languages.en.params.slider]
     enable = true
     title = "A Software Innovation Partner"
     subtitle = "Leave implementation to us and focus on your business"
     bgImage = "img/slider-bg.jpg"
-    btnText = "Discover Our Projects"
-    url = "en/work"
+    btnText = "Our Services and Expertize"
+    url = "#service"
 
   [Languages.en.params.wrapper]
     enable = true
     image = "img/kiss2.jpg"
     title = "The Dunbit Story"
-    italic = "Dunbit is an IT Consulting company with Offices in Ljubljana, Slovenia and Brussels, Belgium. It is a newly founded company but founders and core team has 15+ years of experience with IT Consultancy, Architecture & Design and Implementation of modern solutions, Leading of technical teams, doing Technical Assessment all over the world."
+    italic = "Dunbit is an IT Consulting company with Offices in Ljubljana, Slovenia and Antwerp, Belgium. It is a newly founded company but founders and core team has 15+ years of experience with IT Consultancy, Architecture & Design and Implementation of modern solutions, Leading of technical teams, doing Technical Assessment all over the world."
     paragraph = "At Dunbit we believe that technology should help your business and not be a burden. Our motto is that solutions should be super simple, modular, efficient and straightforward. We strive to provide such solutions to all our customers."
 
   [Languages.en.params.blog]
@@ -104,10 +104,10 @@ defaultContentLanguageInSubdir = true
     title = "Need to realize a great idea"
     bgImage = "img/feature-bg.webp"
     bgImageAlt = "img/feature-bg.jpg"
-    content = "Dunbit is always ready to "
-    [Languages.en.params.feature.button]
-      caption = "View Our Work"
-      url = "en/work"
+    content = "Dunbit is always ready to help you with realization of a idea or project for which you do not have your own resources."
+    #[Languages.en.params.feature.button]
+    #  caption = "View Our Work"
+    #  url = "en/work"
 
   [Languages.en.params.call]
     enable = true
