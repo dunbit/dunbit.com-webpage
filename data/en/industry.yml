@@ -6,7 +6,7 @@ content:
   - icon: fa fa-archive
     name: Retail
     text: 
-
+      
   - icon: fa fa-credit-card
     name: Online
     text: 
@@ -25,4 +25,4 @@ content:
 
   - icon: fa fa-wrench
     name: Manufacturing
-    text:
+    text: 

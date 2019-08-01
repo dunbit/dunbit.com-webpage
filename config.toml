@@ -41,18 +41,18 @@ defaultContentLanguageInSubdir = true
       weight = 3
       name = "Blog"
       url = "en/blog"
-    [[Languages.en.menu.header]]
-      weight = 4
-      name = "Service"
-      url = "en/service"
-    [[Languages.en.menu.header]]
-      weight = 5
-      name = "Expertize"
-      url = "en/expertize"
-    [[Languages.en.menu.header]]
-       weight = 6
-      name = "Industry"
-      url = "en/industry"
+    #[[Languages.en.menu.header]]
+    #  weight = 4
+    #  name = "Service"
+    #  url = "en/service"
+    #[[Languages.en.menu.header]]
+    #  weight = 5
+    #  name = "Expertize"
+    #  url = "en/expertize"
+    #[[Languages.en.menu.header]]
+    #   weight = 6
+    #  name = "Industry"
+    #  url = "en/industry"
     [[Languages.en.menu.header]]
       weight = 7
       name = "Jobs"
@@ -91,7 +91,7 @@ defaultContentLanguageInSubdir = true
     enable = true
     image = "img/kiss2.jpg"
     title = "The Dunbit Story"
-    italic = "Dunbit is an IT Consulting company with Headquarters in Ljubljana, Slovenia (EU) and Office in Brussels, Belgium. It is a newly founded company but founders and core team has 15+ years of experience with IT Consultancy, Architecture & Design and Implementation of modern solutions, Leading of technical teams, doing Technical Assessment all over the world."
+    italic = "Dunbit is an IT Consulting company with Offices in Ljubljana, Slovenia and Brussels, Belgium. It is a newly founded company but founders and core team has 15+ years of experience with IT Consultancy, Architecture & Design and Implementation of modern solutions, Leading of technical teams, doing Technical Assessment all over the world."
     paragraph = "At Dunbit we believe that technology should help your business and not be a burden. Our motto is that solutions should be super simple, modular, efficient and straightforward. We strive to provide such solutions to all our customers."
 
   [Languages.en.params.blog]
@@ -100,11 +100,11 @@ defaultContentLanguageInSubdir = true
     subtitle = "Catch up with us, anytime and anywhere"
 
   [Languages.en.params.feature]
-    enable = false
-    title = "We believe in great ideas"
+    enable = true
+    title = "Need to realize a great idea"
     bgImage = "img/feature-bg.webp"
     bgImageAlt = "img/feature-bg.jpg"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    content = "Dunbit is always ready to "
     [Languages.en.params.feature.button]
       caption = "View Our Work"
       url = "en/work"
@@ -132,12 +132,12 @@ defaultContentLanguageInSubdir = true
       message = "Your message"
       button = "Send message"
     [Languages.en.params.contact.box]
-      title = "Office"
+      title = "Belgium Office"
       address = "Brussels, Belgium"
       email = "Email: info@dunbit.com"
       phone = "Phone: +32 479 65 93 10"
     [Languages.en.params.contact.box2]
-      title = "Headquarters"
+      title = "Slovenia Office"
       address = "Ljubljana, Slovenia"
       email = "Email: operations@dunbit.com"
       phone = "Phone: +386 41 336 457"

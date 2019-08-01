@@ -29,18 +29,18 @@ As a **CTO** or **IT Architect** can find yourself either on examination side or
 
 ![Technical Due Diligence](/img/blog/due_diligence_company.png# right half)
 
-Mostly some senior IT member like **CTO** or **Senior Architect** is doing the Technical Due Diligence. Nothing is wrong with this selection, but this is not always optimal. Especially if different people are used to do evaluations. 
+Mostly some senior IT member like **CTO** or **Senior Architect** is doing the Technical Due Diligence. Nothing is wrong with this selection, but this is not always optimal. Different people, using different methods while doing evaluations will most likely lead to different results.
 
-The main use case for Due Diligence nowadays is some VC investment. Especially for VCs I always suggest that the same person is doing evaluation, based on the company domain and technology he/she can always select additional help but it is important that all evaluations are baselined (easier to compare companies and investments).
+The main use case for Due Diligence nowadays is some VC investment. Especially for VCs we always suggest that the same person is doing evaluation, based on the company domain and technology it can always select additional help. It is important that all evaluations are baselined (easier to compare companies and investments from a technology point of view, similar as using story points to measure complexity of stories in an agile methodology).
 
 Process:
 
 1. Discuss with a Client about what plans they have with a company. Focus can then be on different aspects (e.g. Quick time to market and scale user base from 10k to 10M is something completely different than just buy off certain technology and integrate it either by refactoring or new implementation in already existing solution/product)
-2. Before performing official Due Diligence a lot can be checked as an outside observer (check companies released product, webpage, social media, Linkedin, Github, sometimes - B2B, it also make sense to visit one of the customers and discuss directly with him)
+2. Before performing official Due Diligence a lot can be checked as an outside observer (trial of companies released products,inspection of company webpage, social media, Linkedin, Github, sometimes when their solutions are already used in the market, a customer visit can be done to inspect the solution in real life scenario)
 3. Written documentation request
 4. Overview interviews with CTO, CPO, CMO, VPs, can be done also remotely (I assume that CEO and CFO are also being interviewed by the business, if not can be also included). If company is smaller and above organization is not established, discussion with some senior staff is needed
-5. Take a few days to grasp what you have been told, read the documents and specification and build your own picture, think about weak points, prepare some interview questions upfront
-6. On-site thorough overview of the architecture, technologies and processes in the company (requested upfront to be prepared by the company)
+5. A few days to grasp what was told, detailed look into documentation and specifications to build your own picture, think about weak points, prepare some interview questions upfront
+6. On-site thorough review of the:
     
     ![Technical Due Diligence](/img/blog/due-diligence.jpg# right half)
 
