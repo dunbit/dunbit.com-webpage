@@ -33,14 +33,14 @@ defaultContentLanguageInSubdir = true
     
   [Languages.en.menu]
 
-    [[Languages.en.menu.header]]
-      weight = 2
-      name = "Team"
-      url = "en/team"
-    [[Languages.en.menu.header]]
-      weight = 3
-      name = "Blog"
-      url = "en/blog"
+    #[[Languages.en.menu.header]]
+    #  weight = 2
+    #  name = "Team"
+    #  url = "en/team"
+    #[[Languages.en.menu.header]]
+    #  weight = 3
+    #  name = "Blog"
+    #  url = "en/blog"
     #[[Languages.en.menu.header]]
     #  weight = 4
     #  name = "Service"
@@ -53,10 +53,10 @@ defaultContentLanguageInSubdir = true
     #   weight = 6
     #  name = "Industry"
     #  url = "en/industry"
-    [[Languages.en.menu.header]]
-      weight = 7
-      name = "Jobs"
-      url = "en/jobs"  
+    #[[Languages.en.menu.header]]
+    #  weight = 7
+    #  name = "Jobs"
+    #  url = "en/jobs"  
     [[Languages.en.menu.header]]
       weight = 8
       name = "Contact"
@@ -70,10 +70,10 @@ defaultContentLanguageInSubdir = true
       weight = 2
       name = "Contact us"
       url = "en/contact"
-    [[Languages.en.menu.footer]]
-      weight = 3
-      name = "Blog"
-      url = "en/blog"
+    #[[Languages.en.menu.footer]]
+    #  weight = 3
+    #  name = "Blog"
+    #  url = "en/blog"
     [[Languages.en.menu.footer]]
       weight = 4
       name = "Terms"
@@ -132,11 +132,6 @@ defaultContentLanguageInSubdir = true
       message = "Your message"
       button = "Send message"
     [Languages.en.params.contact.box]
-      title = "Dunbit Belgium"
-      address = "Antwerp, Belgium"
-      email = "info@dunbit.com"
-      phone = "Phone: +32 479 65 93 10"
-    [Languages.en.params.contact.box2]
       title = "Dunbit Slovenia"
       address = "Ljubljana, Slovenia"
       email = "info@dunbit.com"
