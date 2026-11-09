@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{ $d := index .Site.Data .Site.Language.Lang }}{{ $h := $d.home }}
+<section class="wrap hero">
+  <div class="eyebrow">{{ $h.eyebrow }}</div>
+  <h1 class="display">{{ $h.title }}</h1>
+  <div class="hero-foot">
+    <p class="lead">{{ $h.lead }}</p>
+    <div class="actions">
+      <a class="btn btn-accent" href="{{ "contact" | relLangURL }}">{{ $h.primary }}</a>
+      <a class="btn btn-line" href="{{ "service" | relLangURL }}">{{ $h.secondary }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="rule-y">
+  <div class="wrap-flush principles">
+    {{ range $i, $p := $h.principles }}
+    <div class="principle">
+      <span class="mono muted">0{{ add $i 1 }}</span>
+      <strong>{{ $p.word }}</strong>
+      <span>{{ $p.line }}</span>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="section-head">
+    <h2 class="h2">Three ways we help.</h2>
+    <a class="link-line" href="{{ "service" | relLangURL }}">All {{ len $d.service.content }} services →</a>
+  </div>
+  <div class="cards">
+    {{ range $i, $g := $h.groups }}
+    <a class="card" href="{{ "service" | relLangURL }}">
+      <span class="mono muted">0{{ add $i 1 }}</span>
+      <h3>{{ $g.title }}</h3>
+      <p>{{ $g.text }}</p>
+      <span class="mono muted small">{{ $g.items }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "approach.html" . }}
+{{ partial "cta.html" . }}
+{{ end }}

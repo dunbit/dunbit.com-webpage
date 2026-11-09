@@ -1,5 +1,5 @@
 +++
 title = "Services"
 id = "service"
-bgImage = "img/slider-bg.jpg"
+description = "Architecture, cloud migration, web & mobile development, integration, AI-native SDLC and technical due diligence."
 +++

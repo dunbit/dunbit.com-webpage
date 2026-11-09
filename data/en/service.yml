@@ -1,39 +1,50 @@
-enable: true
-title: Our Services
-subtitle: 
+title: From first sketch to running system.
 content:
-
-  - icon: fa fa-sitemap
-    name: Solution and Product Architecture
-    text: >
-      Software and Solution Architecture, Product Strategy and Architecture based on customer needs and industry best practices
-
-  - icon: fa fa-desktop
-    name: Web and Mobile Application Development
-    text: >
-      Development of modern, scalable web and mobile applications
-      
-  - icon: fa fa-cloud
-    name: Cloud Architecture, Development and Migration
-    text: >
-      Cloud Architecture, Migration to/from the Cloud(s), Refactoring and Redesign of Monolith Applications into Cloud ready scalable applications
-
-  - icon: fa fa-thumbs-o-up
-    name: Technical Assessment and Due Diligence
-    text: >
-      Technical Assessments, Verification of Architecure and help with a Due Diligence Process (either perfroming do diligence or helping to prepare for due diligence)
-     
-  - icon: fa fa-group
-    name: Technical Management
-    text: >
-      Helping with Technical Project Management, Leading Technical Teams
-
-  - icon: fa fa-exchange
-    name: Integration and Migration
-    text: >
-      System and Software Integration, Process Orchestration and Integration
-
-  - icon: fa fa-graduation-cap
-    name: Training
-    text: >
-      Various trainings based on the Customer needs
+  - name: Solution & product architecture
+    group: Architect
+    topic: Architecture
+    text: We shape the architecture and product strategy around what your business actually needs — grounded in industry practice, not fashion.
+    outcomes:
+      - Architecture blueprint and decision log
+      - Product and technology roadmap
+      - Build-vs-buy recommendations
+  - name: Cloud architecture & migration
+    group: Architect
+    topic: Cloud
+    text: Moving to, from or between clouds — and breaking monoliths into scalable, cloud-ready services without stopping the business.
+    outcomes:
+      - Migration plan with clear phases
+      - Monolith refactoring strategy
+      - Cost-aware cloud setup
+  - name: Web & mobile development
+    group: Build
+    topic: Web & mobile
+    text: Modern, scalable web and mobile applications, built by a small senior team that owns the result.
+    outcomes:
+      - Production-ready apps
+      - Maintainable, documented code
+      - Clean handover to your team
+  - name: Integration & migration
+    group: Build
+    topic: Integration
+    text: Connecting systems that were never meant to talk — software integration, process orchestration and data migration.
+    outcomes:
+      - Reliable system integrations
+      - Orchestrated business processes
+      - Safe data migration
+  - name: AI-native SDLC
+    group: Build
+    topic: AI SDLC
+    text: We bring AI into how your software gets built — coding agents, AI-assisted review and testing, and the guardrails that keep quality, security and IP under control.
+    outcomes:
+      - AI-ready delivery pipeline
+      - Agent workflows with human review
+      - Team enablement and usage policy
+  - name: Technical assessment & due diligence
+    group: Advise
+    topic: Assessment
+    text: An independent look at your architecture and code — or help preparing for, or performing, a technical due diligence.
+    outcomes:
+      - Clear risk and quality report
+      - Prioritised improvement list
+      - Due diligence readiness

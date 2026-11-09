@@ -1,0 +1,18 @@
+{{ $h := (index .Site.Data .Site.Language.Lang).home }}
+<section class="dark">
+  <div class="wrap section">
+    <div class="split">
+      <h2 class="h2">{{ replace $h.about.title ", " ",<br>" | safeHTML }}</h2>
+      <p class="lead on-dark">{{ $h.about.text }}</p>
+    </div>
+    <div class="steps">
+      {{ range $i, $s := $h.steps }}
+      <div class="step">
+        <span class="mono accent-ink">0{{ add $i 1 }}</span>
+        <h3>{{ $s.title }}</h3>
+        <p>{{ $s.text }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

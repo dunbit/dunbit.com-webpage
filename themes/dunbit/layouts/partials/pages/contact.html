@@ -1,0 +1,59 @@
+{{ $p := .Site.Params }}{{ $s := (index .Site.Data .Site.Language.Lang).service }}
+<section class="wrap section contact">
+  <div class="contact-intro">
+    <div class="eyebrow">Contact</div>
+    <h1 class="h1">Tell us what you need.</h1>
+    <p class="lead">A few lines is enough. We reply within two working days with honest next steps — even if that means pointing you elsewhere.</p>
+    <dl class="contact-details">
+      <div><dt>Office</dt><dd>{{ $p.city }}, {{ $p.country }}</dd></div>
+      <div><dt>Phone</dt><dd><a href="tel:{{ replace $p.phone " " "" }}">{{ $p.phone }}</a></dd></div>
+      <div class="full"><dt>Email</dt><dd><a class="link-line" href="mailto:{{ $p.email }}">{{ $p.email }}</a></dd></div>
+    </dl>
+  </div>
+
+  <div>
+    <form id="contact-form" class="form" novalidate data-email="{{ $p.email }}"{{ with $p.formspree }} data-endpoint="https://formspree.io/f/{{ . }}"{{ end }}>
+      <fieldset class="field">
+        <legend>What can we help with?</legend>
+        <div class="chips">
+          {{ range $s.content }}
+          <label class="chip"><input type="checkbox" name="topics" value="{{ .topic }}"><span>{{ .topic }}</span></label>
+          {{ end }}
+        </div>
+      </fieldset>
+      <div class="row2">
+        <label class="field">Name<input name="name" autocomplete="name" placeholder="Your name" required><span class="err" data-for="name"></span></label>
+        <label class="field">Work email<input name="email" type="email" autocomplete="email" placeholder="you@company.com" required><span class="err" data-for="email"></span></label>
+      </div>
+      <div class="row2">
+        <label class="field">Company <em>optional</em><input name="company" autocomplete="organization" placeholder="Company name"></label>
+        <label class="field">Timeline <em>optional</em>
+          <select name="timeline">
+            <option value="">Not sure yet</option>
+            <option>As soon as possible</option>
+            <option>Within 1–3 months</option>
+            <option>Later this year</option>
+          </select>
+        </label>
+      </div>
+      <label class="field">The short version
+        <textarea name="message" rows="5" maxlength="1000" placeholder="What are you trying to build, fix or decide?" required></textarea>
+        <span class="field-foot"><span class="err" data-for="message"></span><span class="mono muted" data-count>0 / 1000</span></span>
+      </label>
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <button type="submit" class="btn btn-dark btn-lg">Send message →</button>
+      <p class="err" data-for="form"></p>
+    </form>
+
+    <div id="contact-done" class="done" hidden>
+      <span class="done-mark">✓</span>
+      <h2 class="h3" data-done-title>Thanks.</h2>
+      <p data-done-text></p>
+      <div class="done-summary mono" data-done-summary></div>
+      <div class="actions">
+        <a class="btn btn-accent btn-sm" data-done-mailto href="#">Also send via email</a>
+        <button type="button" class="btn btn-line-light btn-sm" data-done-reset>New message</button>
+      </div>
+    </div>
+  </div>
+</section>

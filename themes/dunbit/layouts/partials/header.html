@@ -1,0 +1,12 @@
+{{ $id := .Params.id | default "" }}
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="{{ "/" | relLangURL }}" aria-label="Dunbit home"><span class="logo-mark"></span>dun<span class="accent-ink">bit</span></a>
+    <nav>
+      {{ range .Site.Menus.header }}
+      <a href="{{ .URL | relLangURL }}"{{ if eq $id .URL }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+      <a class="btn btn-dark btn-sm" href="{{ "contact" | relLangURL }}">Start a project <span class="mono">→</span></a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section class="wrap section">
+  <h1 class="h1">{{ .Title }}</h1>
+  <div class="list">
+    {{ range (.Paginator 10).Pages }}
+    <a class="list-item" href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong>{{ with .Description }}<span class="muted">{{ . }}</span>{{ end }}</a>
+    {{ end }}
+  </div>
+  {{ template "_internal/pagination.html" . }}
+</section>
+{{ end }}

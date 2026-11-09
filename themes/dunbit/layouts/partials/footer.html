@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div class="wrap foot">
+    <span>© {{ now.Year }} Dunbit — {{ .Site.Params.city }}, {{ .Site.Params.country }}</span>
+    <div class="foot-links">
+      {{ range .Site.Menus.footer }}<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>{{ end }}
+      {{ with .Site.Params.linkedin }}<a href="{{ . }}" rel="noopener" target="_blank">LinkedIn</a>{{ end }}
+    </div>
+  </div>
+</footer>

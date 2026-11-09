@@ -1,0 +1,44 @@
+eyebrow: Software consultancy — Ljubljana, Slovenia
+title: Simple software for complicated businesses.
+lead: We architect, build and rescue web, mobile and cloud systems — so you can focus on the business, not the plumbing.
+primary: Tell us what you need
+secondary: What we do
+
+principles:
+  - word: Simple
+    line: No complexity you have to pay for later.
+  - word: Modular
+    line: Parts you can change without rewrites.
+  - word: Efficient
+    line: Lean teams, measurable progress.
+  - word: Straightforward
+    line: Plain language, honest estimates.
+
+groups:
+  - title: Architect
+    text: Solution, product and cloud architecture that fits your business — and stays simple as it grows.
+    items: Product architecture · Cloud & migration
+  - title: Build
+    text: Web and mobile applications, the integrations that tie them together — and an AI-native way of building them.
+    items: Web & mobile · Integration · AI SDLC
+  - title: Advise
+    text: Independent technical assessments and due diligence — before you invest, buy or scale.
+    items: Assessment · Due diligence
+
+about:
+  title: Senior people, from day one.
+  text: Our founders and core team bring 15+ years of consulting, architecture and team leadership across projects worldwide. You work directly with them — no hand-offs to a bench of juniors.
+
+steps:
+  - title: Understand
+    text: We start with your business goal, constraints and existing systems.
+  - title: Design
+    text: A simple, modular plan you can read — with costs and trade-offs up front.
+  - title: Deliver
+    text: Short cycles, working software early, no surprises in reporting.
+  - title: Hand over
+    text: Documentation and knowledge transfer so you are never locked in.
+
+cta:
+  title: Have an idea but no team to build it?
+  button: Start a conversation
