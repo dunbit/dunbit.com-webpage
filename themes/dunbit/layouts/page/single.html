@@ -1,9 +1,0 @@
-{{ define "main" }}
-{{ $id := .Params.id | default "" }}
-{{ if eq $id "service" }}{{ partial "pages/service.html" . }}{{ partial "cta.html" . }}
-{{ else if eq $id "approach" }}{{ partial "approach.html" . }}{{ partial "cta.html" . }}
-{{ else if eq $id "contact" }}{{ partial "pages/contact.html" . }}
-{{ else if eq $id "terms" }}{{ partial "pages/terms.html" . }}
-{{ else }}<section class="wrap section prose"><h1 class="h1">{{ .Title }}</h1>{{ .Content }}</section>
-{{ end }}
-{{ end }}
