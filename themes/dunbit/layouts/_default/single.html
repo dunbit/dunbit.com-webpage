@@ -1,9 +1,16 @@
 {{ define "main" }}
+{{ $id := .Params.id | default "" }}
+{{ if eq $id "service" }}{{ partial "pages/service.html" . }}{{ partial "cta.html" . }}
+{{ else if eq $id "approach" }}{{ partial "approach.html" . }}{{ partial "cta.html" . }}
+{{ else if eq $id "contact" }}{{ partial "pages/contact.html" . }}
+{{ else if eq $id "terms" }}{{ partial "pages/terms.html" . }}
+{{ else }}
 <article class="wrap section prose">
-  <div class="eyebrow">{{ .Section | humanize }}</div>
+  {{ with .Section }}<div class="eyebrow">{{ . | humanize }}</div>{{ end }}
   <h1 class="h1">{{ .Title }}</h1>
   {{ with .Params.image }}<img src="{{ . | absURL }}" alt="">{{ end }}
   {{ .Content }}
-  <p><a class="link-line" href="{{ .Section | relLangURL }}">← Back to {{ .Section }}</a></p>
+  {{ with .Section }}<p><a class="link-line" href="{{ . | relLangURL }}">← Back to {{ . }}</a></p>{{ end }}
 </article>
+{{ end }}
 {{ end }}
