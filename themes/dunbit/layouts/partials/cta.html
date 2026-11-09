@@ -1,0 +1,5 @@
+{{ $c := (index .Site.Data .Site.Language.Lang).home.cta }}
+<section class="wrap section cta">
+  <h2 class="h1">{{ $c.title }}</h2>
+  <a class="btn btn-accent btn-lg" href="{{ "contact" | relLangURL }}">{{ $c.button }} →</a>
+</section>

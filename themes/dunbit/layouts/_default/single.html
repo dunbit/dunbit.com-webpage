@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="wrap section prose">
+  <div class="eyebrow">{{ .Section | humanize }}</div>
+  <h1 class="h1">{{ .Title }}</h1>
+  {{ with .Params.image }}<img src="{{ . | absURL }}" alt="">{{ end }}
+  {{ .Content }}
+  <p><a class="link-line" href="{{ .Section | relLangURL }}">← Back to {{ .Section }}</a></p>
+</article>
+{{ end }}

@@ -1,0 +1,26 @@
+{{ $s := (index .Site.Data .Site.Language.Lang).service }}
+<section class="wrap page-head">
+  <div class="eyebrow">Services</div>
+  <h1 class="h1">{{ $s.title }}</h1>
+</section>
+<section class="wrap section-tight">
+  <div class="accordion">
+    {{ range $i, $x := $s.content }}
+    <details class="acc"{{ if eq $i 0 }} open{{ end }}>
+      <summary>
+        <span class="mono muted">0{{ add $i 1 }}</span>
+        <span class="acc-title"><strong>{{ $x.name }}</strong><span class="mono muted small caps">{{ $x.group }}</span></span>
+        <span class="acc-sign" aria-hidden="true"></span>
+      </summary>
+      <div class="acc-body">
+        <p>{{ $x.text }}</p>
+        <div class="outcomes">
+          <div class="mono muted small caps">Typical outcomes</div>
+          <ul>{{ range $x.outcomes }}<li>{{ . }}</li>{{ end }}</ul>
+          <a class="btn btn-dark btn-sm" href="{{ "contact" | relLangURL }}?topic={{ $x.topic | urlquery }}">Ask about this →</a>
+        </div>
+      </div>
+    </details>
+    {{ end }}
+  </div>
+</section>
